@@ -2,17 +2,18 @@
 open System
 
 let array1 = [| 1; 2; 3; 4; 5; 6 |]
-    for i in 0 .. array1.Length - 1 do
+for i in 0 .. array1.Length - 1 do
     printf "%d " array1.[i]
-    printfn" "
-    
-    let array2 = [|
-      1
-      2
-      3
-      4
-      5
-   |]
+printfn" "
+
+let array2 = 
+[|
+    1
+    2
+    3
+    4
+    5
+|]
 for i in 0 .. array2.Length - 1 do
    printf "%d " array2.[i]
 printfn" "
