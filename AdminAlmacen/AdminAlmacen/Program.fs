@@ -23,4 +23,6 @@ for i in 0 .. array3.Length - 1 do
    printf "%d " array3.[i]
 printfn" "
 
+printf"this line is only for learn to use gitkraken"
+
 Console.ReadLine() |> ignore
