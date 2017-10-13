@@ -7,13 +7,13 @@ for i in 0 .. array1.Length - 1 do
 printfn" "
 
 let array2 = 
-[|
-    1
-    2
-    3
-    4
-    5
-|]
+    [|
+        1
+        2
+        3
+        4
+        5
+    |]
 for i in 0 .. array2.Length - 1 do
    printf "%d " array2.[i]
 printfn" "
@@ -23,4 +23,4 @@ for i in 0 .. array3.Length - 1 do
    printf "%d " array3.[i]
 printfn" "
 
-Console.ReadLine()
+Console.ReadLine() |> ignore
